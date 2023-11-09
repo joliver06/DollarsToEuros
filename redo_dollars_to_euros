@@ -1,0 +1,9 @@
+print("US Dollar to Euro in Python")
+
+
+user_input = input("Would you want to convert US dollars to euros? (y/n)")
+while user_input == "y":
+      dollar = float(input("Enter dollar amount to be converted: ")) 
+      euros = dollar * .94540
+      print("Euros: " + str(euros))
+      user_input=input ("Would you like to convert  US dollar to euros? (y/n)")
